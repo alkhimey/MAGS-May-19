@@ -697,99 +697,22 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>43</Height>
-              <Width>640</Width>
-              <Left>0</Left>
+              <Height>300</Height>
+              <Width>140</Width>
+              <Left>500</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
               <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>0</BorderColor>
+              <BorderColor>2</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>2</BackgroundImage>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
               <ID>1</ID>
-              <Name>gInventoryBar</Name>
+              <Name>gReciept</Name>
             </NormalGUI>
-            <Controls>
-              <GUIInventory>
-                <ItemWidth>25</ItemWidth>
-                <ItemHeight>20</ItemHeight>
-                <CharacterID>-1</CharacterID>
-                <Height>33</Height>
-                <Locked>True</Locked>
-                <Width>500</Width>
-                <Left>28</Left>
-                <Top>5</Top>
-                <ZOrder>0</ZOrder>
-                <ID>0</ID>
-                <Name>InventoryWindow1</Name>
-              </GUIInventory>
-              <GUIButton>
-                <OnClick>btnInvScrollLeft_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>7</PushedImage>
-                <MouseoverImage>4</MouseoverImage>
-                <Image>3</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>33</Height>
-                <Locked>True</Locked>
-                <Width>20</Width>
-                <Left>4</Left>
-                <Top>5</Top>
-                <ZOrder>1</ZOrder>
-                <ID>1</ID>
-                <Name>btnInvScrollLeft</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnInvScrollRight_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>10</PushedImage>
-                <MouseoverImage>9</MouseoverImage>
-                <Image>8</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>33</Height>
-                <Locked>True</Locked>
-                <Width>20</Width>
-                <Left>532</Left>
-                <Top>5</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
-                <Name>btnInvScrollRight</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnQuit_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>13</PushedImage>
-                <MouseoverImage>12</MouseoverImage>
-                <Image>11</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>30</Height>
-                <Locked>True</Locked>
-                <Width>70</Width>
-                <Left>562</Left>
-                <Top>6</Top>
-                <ZOrder>3</ZOrder>
-                <ID>3</ID>
-                <Name>btnQuit</Name>
-              </GUIButton>
-            </Controls>
+            <Controls />
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -797,85 +720,7 @@
     <InventoryItems>
       <InventoryItemFolder Name="Main">
         <SubFolders />
-        <InventoryItems>
-          <InventoryItem>
-            <ID>1</ID>
-            <HotspotX>2</HotspotX>
-            <HotspotY>2</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <CursorImage>14</CursorImage>
-            <Image>14</Image>
-            <Description xml:space="preserve">beef jerky</Description>
-            <Name>iBeefJerky</Name>
-            <Properties />
-            <Interactions>
-              <Event Index="0">iBeefJerky_Look</Event>
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
-            <ID>2</ID>
-            <HotspotX>2</HotspotX>
-            <HotspotY>2</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <CursorImage>15</CursorImage>
-            <Image>15</Image>
-            <Description xml:space="preserve">blue cup</Description>
-            <Name>iBlueCup</Name>
-            <Properties />
-            <Interactions>
-              <Event Index="0">iBlueCup_Look</Event>
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3">iBlueCup_UseInv</Event>
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
-            <ID>3</ID>
-            <HotspotX>2</HotspotX>
-            <HotspotY>2</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <CursorImage>16</CursorImage>
-            <Image>16</Image>
-            <Description xml:space="preserve">nondescript book</Description>
-            <Name>iBook</Name>
-            <Properties />
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
-            <ID>4</ID>
-            <HotspotX>2</HotspotX>
-            <HotspotY>2</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <CursorImage>17</CursorImage>
-            <Image>17</Image>
-            <Description xml:space="preserve">pan pipes</Description>
-            <Name>iPipes</Name>
-            <Properties>
-              <CustomProperty>
-                <Name>propInstantUse</Name>
-                <Value>1</Value>
-              </CustomProperty>
-            </Properties>
-            <Interactions>
-              <Event Index="0">iPipes_Look</Event>
-              <Event Index="1">iPipes_Interact</Event>
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-        </InventoryItems>
+        <InventoryItems />
       </InventoryItemFolder>
     </InventoryItems>
     <TextParser>
