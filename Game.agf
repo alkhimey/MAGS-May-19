@@ -1051,7 +1051,7 @@
             <ScriptName>cGirl</ScriptName>
             <RealName>Girl</RealName>
             <NormalView>4</NormalView>
-            <SpeechView>0</SpeechView>
+            <SpeechView>3</SpeechView>
             <IdleView>3</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
@@ -1070,7 +1070,7 @@
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
             <TurnBeforeWalking>True</TurnBeforeWalking>
-            <DiagonalLoops>True</DiagonalLoops>
+            <DiagonalLoops>False</DiagonalLoops>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
