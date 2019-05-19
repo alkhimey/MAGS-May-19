@@ -720,7 +720,26 @@
     <InventoryItems>
       <InventoryItemFolder Name="Main">
         <SubFolders />
-        <InventoryItems />
+        <InventoryItems>
+          <InventoryItem>
+            <ID>1</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>0</Image>
+            <Description xml:space="preserve">Reciept List</Description>
+            <Name>iReciept</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+        </InventoryItems>
       </InventoryItemFolder>
     </InventoryItems>
     <TextParser>
