@@ -3,7 +3,7 @@
 <AGSEditorDocument Version="3.0.3.2" VersionIndex="15" EditorVersion="3.4.3">
   <Game>
     <Settings>
-      <GameName xml:space="preserve">MAGS May 19</GameName>
+      <GameName xml:space="preserve">A Suspicious Date</GameName>
       <UniqueID>361125</UniqueID>
       <GUIDAsString>{70161513-86c1-4ff3-9cdb-6ae05ba9fbc4}</GUIDAsString>
       <ColorDepth>HighColor</ColorDepth>
@@ -46,7 +46,7 @@
       <DialogOptionsGap>1</DialogOptionsGap>
       <DialogOptionsBullet>0</DialogOptionsBullet>
       <SkipSpeech>MouseOrKeyboardOrTimer</SkipSpeech>
-      <SpeechStyle>Lucasarts</SpeechStyle>
+      <SpeechStyle>SierraTransparent</SpeechStyle>
       <UseGlobalSpeechAnimationDelay>False</UseGlobalSpeechAnimationDelay>
       <GlobalSpeechAnimationDelay>5</GlobalSpeechAnimationDelay>
       <LegacySpeechAnimationSpeed>False</LegacySpeechAnimationSpeed>
@@ -67,11 +67,11 @@
       <Genre>Adventure</Genre>
       <Version>1.0.0.0</Version>
       <WindowsExperienceIndex>1</WindowsExperienceIndex>
-      <DeveloperName xml:space="preserve">Björn 'Ghost' Ludwig</DeveloperName>
+      <DeveloperName xml:space="preserve">Tuathlait, Durq, Artium</DeveloperName>
       <DeveloperURL />
       <EnhancedSaveGames>False</EnhancedSaveGames>
       <SaveGameFileExtension />
-      <SaveGameFolderName xml:space="preserve">MAGS May 19</SaveGameFolderName>
+      <SaveGameFolderName xml:space="preserve">A Suspicious Date</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
       <AudioIndexer>3</AudioIndexer>
       <BuildTargets xml:space="preserve">Windows, Linux</BuildTargets>
@@ -1894,8 +1894,8 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aElectricNoise</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\ElectricNoise.WAV</SourceFileName>
+                <ScriptName>aElectricNoise</ScriptName>
                 <Index>1</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -1951,8 +1951,8 @@
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
