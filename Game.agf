@@ -694,26 +694,6 @@
               </GUILabel>
             </Controls>
           </GUIMain>
-          <GUIMain>
-            <NormalGUI>
-              <OnClick />
-              <Height>300</Height>
-              <Width>140</Width>
-              <Left>500</Left>
-              <Top>0</Top>
-              <Clickable>True</Clickable>
-              <Visibility>NormalButInitiallyOff</Visibility>
-              <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
-              <BorderColor>2</BorderColor>
-              <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <ID>1</ID>
-              <Name>gReciept</Name>
-            </NormalGUI>
-            <Controls />
-          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
