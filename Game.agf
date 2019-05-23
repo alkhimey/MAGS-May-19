@@ -1474,14 +1474,9 @@
               </SpriteFolder>
             </SubFolders>
             <Sprites>
-              <Sprite Slot="18" Width="100" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="21" Width="100" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
                 <Source>
-                  <FileName>Raw Assets/face.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="19" Width="100" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>Raw Assets/face2.png</FileName>
+                  <FileName>Raw Assets/Face_100x100.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -1801,14 +1796,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>18</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>1</ID>
-                    <Image>19</Image>
+                    <Image>21</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
