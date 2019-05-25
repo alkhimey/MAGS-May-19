@@ -1407,79 +1407,22 @@
           <SpriteFolder Name="Characters">
             <SubFolders>
               <SpriteFolder Name="Girl">
-                <SubFolders>
-                  <SpriteFolder Name="Idle">
-                    <SubFolders />
-                    <Sprites>
-                      <Sprite Slot="31" Width="36" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="32" Width="36" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="33" Width="36" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="34" Width="36" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="35" Width="36" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="36" Width="36" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="37" Width="36" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="38" Width="36" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                    </Sprites>
-                  </SpriteFolder>
-                  <SpriteFolder Name="Up">
-                    <SubFolders />
-                    <Sprites>
-                      <Sprite Slot="59" Width="25" Height="43" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="60" Width="25" Height="43" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="61" Width="25" Height="43" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="62" Width="25" Height="43" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="63" Width="25" Height="43" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="64" Width="25" Height="43" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="65" Width="25" Height="43" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="66" Width="25" Height="43" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                    </Sprites>
-                  </SpriteFolder>
-                  <SpriteFolder Name="Down">
-                    <SubFolders />
-                    <Sprites>
-                      <Sprite Slot="45" Width="24" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="46" Width="24" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="47" Width="24" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="48" Width="24" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="49" Width="24" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="50" Width="24" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="51" Width="24" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="52" Width="24" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                    </Sprites>
-                  </SpriteFolder>
-                  <SpriteFolder Name="Left">
-                    <SubFolders />
-                    <Sprites>
-                      <Sprite Slot="39" Width="38" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="40" Width="38" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="41" Width="38" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="42" Width="38" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="43" Width="38" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="44" Width="38" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                    </Sprites>
-                  </SpriteFolder>
-                  <SpriteFolder Name="Right">
-                    <SubFolders />
-                    <Sprites>
-                      <Sprite Slot="53" Width="29" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="54" Width="29" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="55" Width="29" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="56" Width="29" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="57" Width="29" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                      <Sprite Slot="58" Width="29" Height="44" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-                    </Sprites>
-                  </SpriteFolder>
-                </SubFolders>
-                <Sprites />
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="21" Width="100" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>Raw Assets/FaceClosedMouth.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="18" Width="100" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>Raw Assets/FaceOpenMouth.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
               </SpriteFolder>
             </SubFolders>
-            <Sprites>
-              <Sprite Slot="21" Width="100" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>Raw Assets/Face_100x100.png</FileName>
-                </Source>
-              </Sprite>
-            </Sprites>
+            <Sprites />
           </SpriteFolder>
         </SubFolders>
         <Sprites>
@@ -1507,38 +1450,14 @@
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>1</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
                   <ViewFrame>
-                    <ID>0</ID>
-                    <Image>0</Image>
+                    <ID>1</ID>
+                    <Image>18</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
-              </Loop>
-              <Loop>
-                <ID>2</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
-                    <ID>0</ID>
-                    <Image>0</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>3</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames />
               </Loop>
             </Loops>
           </View>
