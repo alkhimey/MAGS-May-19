@@ -1103,6 +1103,16 @@
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
       </Font>
+      <Font>
+        <ID>4</ID>
+        <PointSize>10</PointSize>
+        <Name>fntReciept</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <SourceFilename xml:space="preserve">Raw Assets/cumberland-fontworks_merchant-copy/Merchant Copy.ttf</SourceFilename>
+        <VerticalOffset>0</VerticalOffset>
+        <LineSpacing>0</LineSpacing>
+      </Font>
     </Fonts>
     <Palette>
       <PaletteEntry Index="0" Type="Gamewide" Red="0" Green="0" Blue="0" />
@@ -1393,7 +1403,13 @@
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
-            <Sprites />
+            <Sprites>
+              <Sprite Slot="19" Width="150" Height="300" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>Raw Assets/Receipt_150x300.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Inventory">
             <SubFolders />
@@ -1459,6 +1475,37 @@
                   </ViewFrame>
                 </Frames>
               </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
             </Loops>
           </View>
         </Views>
@@ -1473,6 +1520,30 @@
       <ScriptFolder Name="Main">
         <SubFolders />
         <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>Reciept.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1221035909</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Reciept.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1221035909</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
