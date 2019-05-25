@@ -686,8 +686,8 @@
                 <Height>25</Height>
                 <Locked>False</Locked>
                 <Width>600</Width>
-                <Left>20</Left>
-                <Top>1</Top>
+                <Left>19</Left>
+                <Top>-3</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblActionText</Name>
@@ -1069,17 +1069,17 @@
         <Name>fntDefault</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
-        <SourceFilename xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\Game Fonts\agsfnt3.ttf</SourceFilename>
+        <SourceFilename xml:space="preserve">Raw Assets/walter-turncoat/walterturncoat.ttf</SourceFilename>
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
       </Font>
       <Font>
         <ID>1</ID>
-        <PointSize>10</PointSize>
+        <PointSize>12</PointSize>
         <Name>fntSpeech</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>Automatic</OutlineStyle>
-        <SourceFilename xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\Game Fonts\agsfnt4.ttf</SourceFilename>
+        <SourceFilename xml:space="preserve">Raw Assets/walter-turncoat/walterturncoat.ttf</SourceFilename>
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
       </Font>
