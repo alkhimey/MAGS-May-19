@@ -99,7 +99,7 @@
       <CustomSavePath />
       <UseCustomAppDataPath>False</UseCustomAppDataPath>
       <CustomAppDataPath IsNull="True" />
-      <TitleText xml:space="preserve">Ghost's Lightweight BASS Stub Setup</TitleText>
+      <TitleText xml:space="preserve">A Suspicious Date Setup</TitleText>
     </RuntimeSetup>
     <LipSync>
       <Type>None</Type>

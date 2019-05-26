@@ -4,6 +4,8 @@ struct Reciept {
 
   import static function Enable();
   import static function Disable();
+  
+  import static bool IsEnabled();
     
   /**
    * Test the selected items on a hotspot. Which means that the user 
