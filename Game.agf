@@ -694,55 +694,6 @@
               </GUILabel>
             </Controls>
           </GUIMain>
-          <GUIMain>
-            <NormalGUI>
-              <OnClick />
-              <Height>40</Height>
-              <Width>245</Width>
-              <Left>0</Left>
-              <Top>360</Top>
-              <Clickable>False</Clickable>
-              <Visibility>Normal</Visibility>
-              <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
-              <BorderColor>0</BorderColor>
-              <Transparency>0</Transparency>
-              <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <ID>1</ID>
-              <Name>gClues</Name>
-            </NormalGUI>
-            <Controls>
-              <GUILabel>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>33808</TextColor>
-                <Font>4</Font>
-                <Text xml:space="preserve">!? !? !? !? !?</Text>
-                <Height>30</Height>
-                <Locked>False</Locked>
-                <Width>245</Width>
-                <Left>0</Left>
-                <Top>0</Top>
-                <ZOrder>0</ZOrder>
-                <ID>0</ID>
-                <Name>gCluesBg</Name>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>4</Font>
-                <Text />
-                <Height>5</Height>
-                <Locked>False</Locked>
-                <Width>245</Width>
-                <Left>0</Left>
-                <Top>0</Top>
-                <ZOrder>1</ZOrder>
-                <ID>1</ID>
-                <Name>gCluesFg</Name>
-              </GUILabel>
-            </Controls>
-          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -1149,16 +1100,6 @@
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
         <SourceFilename xml:space="preserve">Raw Assets/cumberland-fontworks_merchant-copy/Merchant Copy.ttf</SourceFilename>
-        <VerticalOffset>0</VerticalOffset>
-        <LineSpacing>0</LineSpacing>
-      </Font>
-      <Font>
-        <ID>4</ID>
-        <PointSize>12</PointSize>
-        <Name>fntClues</Name>
-        <OutlineFont>0</OutlineFont>
-        <OutlineStyle>Automatic</OutlineStyle>
-        <SourceFilename xml:space="preserve">Raw Assets/cumberland-fontworks_merchant-copy/Merchant Copy Wide.ttf</SourceFilename>
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
       </Font>
