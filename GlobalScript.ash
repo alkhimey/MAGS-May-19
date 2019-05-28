@@ -3,14 +3,3 @@
 // place import definitions and #define names here to be used by all
 // scripts.
 
-enum Clues {
-  eClueChampange,
-  eClueMusic, 
-  eClueCake, 
-  eClueCount
-};
-
-struct CustomGameSate {
-  bool recieptWasFound;
-  bool cluesFound[eClueCount];  
-};
