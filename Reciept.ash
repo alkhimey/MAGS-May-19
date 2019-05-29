@@ -10,4 +10,5 @@ struct Reciept {
   import static bool HasSelection();
   
   import static bool ItemsSelectedForClue(CluesEnum clueId);
+  import static bool PartialItemsSelectedForClue(CluesEnum clueId);
 };
