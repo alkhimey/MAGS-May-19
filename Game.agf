@@ -63,7 +63,7 @@
       <HasMODMusic>False</HasMODMusic>
       <GameExplorerEnabled>False</GameExplorerEnabled>
       <Description />
-      <ReleaseDate>2007-08-19</ReleaseDate>
+      <ReleaseDate>2019-05-31</ReleaseDate>
       <Genre>Adventure</Genre>
       <Version>1.0.0.0</Version>
       <WindowsExperienceIndex>1</WindowsExperienceIndex>
@@ -73,7 +73,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">A Suspicious Date</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>3</AudioIndexer>
+      <AudioIndexer>9</AudioIndexer>
       <BuildTargets xml:space="preserve">Windows, Linux</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
@@ -691,6 +691,61 @@
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblActionText</Name>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>400</Height>
+              <Width>640</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>32</BorderColor>
+              <Transparency>50</Transparency>
+              <BackgroundColor>32</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>1</ID>
+              <Name>gBlack</Name>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>400</Height>
+              <Width>640</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>16</BackgroundImage>
+              <ID>2</ID>
+              <Name>gHand</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <Text xml:space="preserve">Hey, sweetheart, come over as quick as you can. Ive got a surprise for you. We’ve been together for a while now, and I want to show you how much I love you.</Text>
+                <Height>166</Height>
+                <Locked>False</Locked>
+                <Width>111</Width>
+                <Left>188</Left>
+                <Top>72</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Label1</Name>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -1399,20 +1454,17 @@
                   <FileName>Raw Assets/Receipt_150x300.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="20" Width="256" Height="256" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="15" Width="25" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="16" Width="369" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
                 <Source>
-                  <FileName>Raw Assets/Magnifying Glass Tester.png</FileName>
+                  <FileName>Raw Assets/phone_height_400_fixed_transperancy.png</FileName>
                 </Source>
               </Sprite>
-            </Sprites>
-          </SpriteFolder>
-          <SpriteFolder Name="Inventory">
-            <SubFolders />
-            <Sprites>
-              <Sprite Slot="14" Width="25" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="15" Width="25" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="16" Width="25" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="17" Width="25" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="17" Width="369" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>Raw Assets/phone_height_400.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Characters">
@@ -1428,6 +1480,11 @@
                   <Sprite Slot="18" Width="100" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
                     <Source>
                       <FileName>Raw Assets/FaceOpenMouth.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="14" Width="100" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>Raw Assets/Happy.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -1503,11 +1560,29 @@
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>1</ID>
+            <Name>girlSmileTalk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>14</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
     <DeletedViews>
-      <ViewID>1</ViewID>
       <ViewID>4</ViewID>
       <ViewID>3</ViewID>
     </DeletedViews>
@@ -1619,7 +1694,32 @@
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aUsher</ScriptName>
+                <SourceFileName xml:space="preserve">Raw Assets/Usher - My Way.mid</SourceFileName>
+                <Index>4</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MIDI</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2019-05-29 19:38:23Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aChoices</ScriptName>
+                <SourceFileName xml:space="preserve">Raw Assets/Tough-Choices.mp3</SourceFileName>
+                <Index>5</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2019-05-30 21:22:28Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
@@ -1632,40 +1732,40 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aElectricNoise</ScriptName>
-                <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\ElectricNoise.WAV</SourceFileName>
-                <Index>1</Index>
+                <ScriptName>aTires</ScriptName>
+                <SourceFileName xml:space="preserve">Raw Assets/Sounds/243375__johnsonbrandediting__tire-puncture-pop-hit-punch.mp3</SourceFileName>
+                <Index>7</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
+                <FileType>MP3</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-10 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2019-05-30 21:25:15Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aLostCraftHowl</ScriptName>
-                <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\LostCraftHowl.wav</SourceFileName>
-                <Index>2</Index>
+                <ScriptName>aMessage</ScriptName>
+                <SourceFileName xml:space="preserve">Raw Assets/Sounds/268756__morrisjm__dingaling.mp3</SourceFileName>
+                <Index>8</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
+                <FileType>MP3</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-10 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2019-05-30 21:25:02Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aRadioNoise</ScriptName>
-                <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\RadioNoise.WAV</SourceFileName>
-                <Index>3</Index>
+                <ScriptName>aMirror</ScriptName>
+                <SourceFileName xml:space="preserve">Raw Assets/Sounds/276938_gladkiy_breaking-glass-mirror-rode-ntg3 (online-audio-converter.com).mp3</SourceFileName>
+                <Index>9</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
+                <FileType>MP3</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-11 21:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2019-05-30 22:03:55Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
