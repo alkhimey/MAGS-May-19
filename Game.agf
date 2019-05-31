@@ -706,7 +706,7 @@
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
               <BorderColor>32</BorderColor>
-              <Transparency>50</Transparency>
+              <Transparency>80</Transparency>
               <BackgroundColor>32</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>1</ID>
